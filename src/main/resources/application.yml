@@ -1,0 +1,13 @@
+server.port: 8090
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/geojson
+    username: rashad
+    password:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
